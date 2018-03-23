@@ -32,3 +32,16 @@ body{
 	top:3%;
 	z-index:2;
 }
+
+#play_button{
+	width:8%;
+	height:10%;
+	position:fixed;
+	bottom:0%;
+	left:50%;
+
+}
+
+ul{
+	list-style-type:none;
+}
