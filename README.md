@@ -1,5 +1,5 @@
 # musicplayer.github.io
-This is a light weight, cross platform music player that is solely build using HTML, CSS and JavaScript.
+This is a light weight, cross platform music player that is solely built using HTML, CSS and JavaScript.
 
 We are aiming it to be less than 200KB in size.
 
