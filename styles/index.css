@@ -7,12 +7,16 @@
 }
 
 #options{
-	display:none;
 	position:fixed;
 	left:0;
 	height:100%;
+	width:0;
 	border:0;
 	z-index:1;
+	background-color:#f87;
+	overflow-x:hidden;
+	padding-top:20%;
+	transition:0.5s;
 }
 
 .module{
