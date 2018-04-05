@@ -2,7 +2,7 @@ $('input').change(function(){
 	//var Files = this.files;
 
 	var req = new XMLHttpRequest();
-	req.open('GET', 'https://github.com/SingularReza/musicplayer.github.io/blob/master/test.mp3', true);
+	req.open('GET', '', true);
 	req.responseType = 'arraybuffer';
 
 	req.onload = function() {
