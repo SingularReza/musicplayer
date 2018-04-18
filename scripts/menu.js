@@ -1,3 +1,5 @@
+var test = jQuery('#now_playing').height();
+
 jQuery('#menu_button').click(function(){
 	if(jQuery('#options').width()===0)
 	{
@@ -22,9 +24,10 @@ function check(){
 }
 
 jQuery('#go_back').click( function(){
+	
 	if(jQuery('#now_playing').height()===window.innerHeight)
 	{
-		jQuery('#now_playing').css('height', '80');
+		jQuery('#now_playing').css('height', test);
 		jQuery('body').css('background', 'rgba(255, 255, 255, 0)');
 		jQuery('#go_back').css('visibility', 'hidden')
 	}
