@@ -12,7 +12,7 @@
 	position:fixed;
 	left:0;
 	height:100%;
-	width:0;
+	width:37px;
 	border:0;
 	z-index:2;
 	background-color:#f87;
@@ -52,7 +52,7 @@ body{
 	height:20px;
 	width:20px;
 	position:fixed;
-	left:2%;
+	left:1%;
 	top:2%;
 	z-index:3;
 }
@@ -105,3 +105,37 @@ ul{
 	font-size: 20px;
 }
 
+#next_button{
+	width:150px;
+	height:55px;
+	position:fixed;
+	bottom:2%;
+	left:58%;
+}
+
+#last_song{
+	width:150px;
+	height:55px;
+	position:fixed;
+	bottom:2%;
+	left:42%;
+	transform:scaleX(-1);
+}
+
+#folder_button{
+	height:20px;
+	width:20px;
+	position:fixed;
+	left:1%;
+	top:15%;
+	z-index:3;
+}
+
+#settings_button{
+	height:20px;
+	width:20px;
+	position:fixed;
+	left:1%;
+	bottom:5%;
+	z-index:3;
+}

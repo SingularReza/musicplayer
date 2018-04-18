@@ -1,7 +1,7 @@
-var test = jQuery('#now_playing').height();
+var height = jQuery('#now_playing').height();
 
 jQuery('#menu_button').click(function(){
-	if(jQuery('#options').width()===0)
+	if(jQuery('#options').width()===37)
 	{
 		jQuery('#options').css('width', '400');
 		jQuery('body').css('background', 'rgba(65, 65, 65, 0.9)');
@@ -10,7 +10,7 @@ jQuery('#menu_button').click(function(){
 
 	if(jQuery('#options').width()===400)
 	{
-		jQuery('#options').css('width', '0');
+		jQuery('#options').css('width', '37');
 		jQuery('body').css('background', 'rgba(255, 255, 255, 0.9)');
 		jQuery('#info').css('width', '0');
 	}
@@ -24,12 +24,13 @@ function check(){
 }
 
 jQuery('#go_back').click( function(){
-	
+
 	if(jQuery('#now_playing').height()===window.innerHeight)
 	{
-		jQuery('#now_playing').css('height', test);
+		jQuery('#now_playing').css('height', height);
 		jQuery('body').css('background', 'rgba(255, 255, 255, 0)');
 		jQuery('#go_back').css('visibility', 'hidden')
 	}
 });
 
+jQuery('#options').children().hide();
