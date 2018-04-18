@@ -69,8 +69,8 @@ body{
 #play_button{
 	width:150px;
 	height:55px;
-	position:fixed;
-	bottom:3%;
+	position:absolute;
+	bottom:25%;
 	left:50%;
 
 }
@@ -110,16 +110,16 @@ ul{
 #next_button{
 	width:150px;
 	height:55px;
-	position:fixed;
-	bottom:2%;
+	position:absolute;
+	bottom:20%;
 	left:58%;
 }
 
 #last_song{
 	width:150px;
 	height:55px;
-	position:fixed;
-	bottom:2%;
+	position:absolute;
+	bottom:20%;
 	left:42%;
 	transform:scaleX(-1);
 }
@@ -127,7 +127,7 @@ ul{
 #folder_button{
 	height:20px;
 	width:20px;
-	position:fixed;
+	position:absolute;
 	left:1%;
 	top:15%;
 	z-index:3;
@@ -136,7 +136,7 @@ ul{
 #settings_button{
 	height:20px;
 	width:20px;
-	position:fixed;
+	position:absolute;
 	left:1%;
 	bottom:5%;
 	z-index:3;
