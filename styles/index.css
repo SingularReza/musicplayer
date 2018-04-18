@@ -1,18 +1,20 @@
 #now_playing{
-	position:fixed;
+	position:absolute;
 	bottom:0;
 	width:100%;
+	left:45px;
 	height:13%;
 	z-index:1;
 	transition:0.5s;
 	background-color:#eec;
+	float:right;
 }
 
 #options{
 	position:fixed;
 	left:0;
 	height:100%;
-	width:37px;
+	width:45px;
 	border:0;
 	z-index:2;
 	background-color:#f87;
