@@ -23,7 +23,7 @@ function loadUrl(url, callback, reader) {
                 base64String += String.fromCharCode(image.data[i]);
             }
 	    $("art").src = "data:" + image.format + ";base64," + window.btoa(base64String);
-	    $("art").style.display = "block";
+	    $("art").style.display = "inline";
 	} else {
 	    $("art").style.display = "none";
 	}

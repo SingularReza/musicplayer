@@ -26,18 +26,6 @@
             <p id="demo" style="margin-left: 10%;"></p>
             
             <dl>
-                <dt>Artist</dt>
-                <dd id="artist"></dd>
-
-                <dt>Title</dt>
-                <dd id="title"></dd>
-
-                <dt>Album</dt>
-                <dd id="album"></dd>
-
-                <dt>Year</dt>
-                <dd id="year"></dd>
-
                 <dt>Comment</dt>
                 <dd id="comment"></dd>
 
@@ -49,17 +37,21 @@
 
                 <dt>Lyrics</dt>
                 <dd id="lyrics"></dd>
-
-                <dt>Cover Art</dt>
-                <dd><img id="art" src=""></dd>
             </dl>
         </div>
         
 		<section id="albums"></section>
-		<div id="now_playing" class="module" onclick='check()'>
-			
-			now playing <img src="images/play.svg" id="play_button">
-		</div>
+		<section id="now_playing" class="module" onclick='check()'>
+			<img id="art" src="">
+			<div id = "details">
+				<span id="title"></span>
+				<br/>
+				<span id="artist"></span>
+				<span id="album"></span>
+				<span id="year"></span>
+			</div>
+			<img src="images/play.svg" id="play_button">
+		</section>
 
 		<script src="scripts/menu.js"></script>
 		<script src="scripts/id3-minimized.js"></script>
